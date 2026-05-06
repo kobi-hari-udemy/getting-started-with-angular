@@ -16,11 +16,11 @@ In this repository you can find all material for the course
 
 ## Practice Exercises on StackBlitz
 
-### Section 3 - Custom Directives in Angular
+### Section 3 - Getting Ready for Angular Development
 
 * Practice 01 - Fun with Angular
-  * [Github](https://github.com/kobi-hari-udemy/reusable-angular-components/tree/main/practice/01.%20fun-with-directives)
-  * [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/reusable-angular-components/tree/main/practice/01.%20fun-with-directives?title=Highlight%20Directive&file=README.md)
+  * [Github](https://github.com/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/01.%20fun-with-angular)
+  * [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/01.%20fun-with-angular?title=Fun%20With%20Angular&file=README.md)
 
 * Practice 02 - Trying out Input Host Bindings and Listeners
   * [Github](https://github.com/kobi-hari-udemy/reusable-angular-components/tree/main/practice/02.%20fun-with-directives)
