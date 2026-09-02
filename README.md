@@ -21,3 +21,7 @@ In this repository you can find all material for the course
 * Practice 01 - Hello Angular
   * [Github](https://github.com/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/01.%20hello-angular)
   * [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/01.%20hello-angular?title=Hello%20Angular&file=README.md)
+
+### Section 3 - How Angular Works
+* Practice 02 - Fun with Angular
+  

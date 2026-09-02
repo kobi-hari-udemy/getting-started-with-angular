@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "hello-angular": {
+    "fun-with-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "hello-angular:build:production"
+              "buildTarget": "fun-with-angular:build:production"
             },
             "development": {
-              "buildTarget": "hello-angular:build:development"
+              "buildTarget": "fun-with-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
