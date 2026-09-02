@@ -1,27 +1,59 @@
-# Practice 01 - Fun with Angular
+# HelloAngular
 
-## Overview
-In this practice exercise, we will get started with Angular. We will take a look at a freshly generated Angular application, run it in our development enviroment, see it in the browser, and make some small changes to see how they affect the presented page.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.6.
 
-## Steps
-### Step 1 - Run the application
-1. Open the `01. fun-with-angular` folder in your code editor
-2. Run `npm install` to install the dependencies - if you have not done it already 
+## Development server
 
-> Hint: if you see the folder `node_modules` in the file explorer of your code editor, it means that the dependencies are already installed, otherwise you will need to run `npm install` to install the dependencies
+To start a local development server, run:
 
-3. Run `npm start` or `ng serve` to start the development server
-4. Open the browser and navigate to `http://localhost:4200` to see the application running
-
-### Step 2 - Make some changes
-1. Open the `src/app/app.html` file in your code editor
-2. Add the following code to the file, between the `<h1>` and the `<p>` elements:
-```html
-<div class="my-div">
-  <p>This is a div element with a class of "my-div"</p>
-</div>
+```bash
+ng serve
 ```
-3. Make sure to **save the file** after making the changes - You will not see any changes in the browser until you save the file
-4. When you save the file, if you look at the terminal running the development server, you will see that it detects the changes and recompiles the application
-5. After the recompilation is done, you will see the changes in the browser - you should see a new div element with the text "This is a div element with a class of "my-div"". 
-> Note: Notice that you did not have to refresh the browser to see the changes - this is one of the great features of Angular's development server, it automatically pushes changes to the browser without the need to refresh the page, this is called "Hot Module Replacement" (HMR) and it greatly improves the development experience by allowing you to see changes in real-time without losing the state of the application.
+
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Code scaffolding
+
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
