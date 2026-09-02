@@ -24,4 +24,6 @@ In this repository you can find all material for the course
 
 ### Section 3 - How Angular Works
 * Practice 02 - Fun with Angular
+  * [Github](https://github.com/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/02.%20fun-with-angular)
+  * [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/02.%20fun-with-angular?title=Fun%20with%20Angular&file=README.md)  
   
