@@ -14,15 +14,10 @@ In this repository you can find all material for the course
 * [Building Reusable Components in Angular - The missing guide](https://www.udemy.com/course/building-reusable-components-in-angular-the-missing-guide/?referralCode=25E7233D3FFD6D3D60EC)
 
 
-## Practice Exercises on StackBlitz
+## Practice Exercises
 
-### Section 3 - Getting Ready for Angular Development
+### Section 2 - Setting up the Development Environment
 
-* Practice 01 - Fun with Angular
-  * [Github](https://github.com/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/01.%20fun-with-angular)
-  * [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/01.%20fun-with-angular?title=Fun%20With%20Angular&file=README.md)
-
-### Section 4 - Getting Started with Angular
-* Practice 02 - Hello Angular
-  * [Github](https://github.com/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/02.%20hello-angular)
-  * [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/02.%20hello-angular?title=Hello%20Angular&file=README.md)
+* Practice 01 - Hello Angular
+  * [Github](https://github.com/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/01.%20hello-angular)
+  * [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/01.%20hello-angular?title=Hello%20Angular&file=README.md)
