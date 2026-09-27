@@ -1,12 +1,23 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('search-app');
+  // State
+  // 1. Keyword
+  readonly keyword = signal('');
+
+  // 2. Results
+  readonly results = signal<string[]>([]);
+
+  // 3. Is Busy
+  readonly isBusy = signal(false);
+  
+
+  // Actions
+
 }
