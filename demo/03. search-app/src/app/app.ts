@@ -16,8 +16,25 @@ export class App {
 
   // 3. Is Busy
   readonly isBusy = signal(false);
-  
 
   // Actions
+  setKeyword(value: string) {
+    this.keyword.set(value);
+  }
 
+  search() {
+    const searchWord = this.keyword();
+    this.isBusy.set(true);
+    this.results.set([]);
+
+    setTimeout(() => {
+      this.isBusy.set(false);
+      this.results.set([
+        searchWord.toUpperCase(), 
+        searchWord.toLowerCase(), 
+        `* ${searchWord} *`
+      ]);
+    }, 3000);
+
+  }
 }
