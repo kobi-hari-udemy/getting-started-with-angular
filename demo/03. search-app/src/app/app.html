@@ -1,6 +1,11 @@
 <div class="top-bar">
-    <input #searchBox type="search" (input)="setKeyword(searchBox.value)">
-    <button (click)="search()">Go</button>
+    <input #searchBox type="search" 
+        (input)="setKeyword(searchBox.value)"
+        [disabled]="isBusy()"
+        >
+    <button (click)="search()"
+            [disabled]="isBusy()"
+        >Go</button>
     @if(isBusy()) {
         <img src="https://discuss.wxpython.org/uploads/default/original/2X/6/6d0ec30d8b8f77ab999f765edd8866e8a97d59a3.gif">
     } 
