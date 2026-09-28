@@ -14,3 +14,18 @@ body, html {
 body {
     display: grid;
 }
+
+:root {
+    --clr-background: white;
+    --clr-surface: rgb(245, 249, 252);
+    --clr-border: rgb(215, 217, 219);
+    --crl-selected-background: rgb(231, 240, 253);
+    --clr-selected-border: rgb(43, 112, 191);
+    --clr-text: rgb(1, 1, 44);
+    --clr-selected-text: rgb(2, 12, 67);
+
+
+    --pad-sm: 6px;
+    --pad-md: 12px;
+
+}
