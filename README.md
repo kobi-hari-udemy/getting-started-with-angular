@@ -29,5 +29,10 @@ In this repository you can find all material for the course
   
 ### Section 4 - The Angular Mental Model
 * Practice 03 - Search App
-* [Github](https://github.com/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/03.%20search-app)
-* [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/03.%20search-app?title=Search%20App&file=README.md)
+  * [Github](https://github.com/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/03.%20search-app)
+  * [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/03.%20search-app?title=Search%20App&file=README.md)
+
+### Section 5 - Building Interactive UIs
+* Practice 04 - Notepad App
+  * [Github](https://github.com/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/04.%20notepad)
+  * [StackBlitz](https://stackblitz.com/fork/github/kobi-hari-udemy/getting-started-with-angular/tree/main/practices/04.%20notepad?title=Notepad%20App&file=README.md)  
