@@ -35,5 +35,9 @@
     }
 </div>
 <div class="content-area area">
-    <textarea></textarea>
+    <textarea
+        [style.color]="selectedColor()"
+        [style.font-family]="selectedFont()"
+        [style.font-size]="selectedSize()"
+    ></textarea>
 </div>

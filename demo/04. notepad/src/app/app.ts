@@ -8,7 +8,7 @@ import { Component, signal } from '@angular/core';
 })
 export class App {
   // State
-  readonly colorOptions = signal(['Cobalt', 'Chacoal', 'Crimson', 'Forest', 'Plum']);
+  readonly colorOptions = signal(['Green', 'Blue', 'Brown', 'Purple', 'Black']);
   readonly fontOptions = signal(['Georgia', 'Arial', 'Verdana', 'Trebuchet', 'Courier New']);
   readonly sizeOptions = signal(['14px', '18px', '24px', '30px', '36px']);
 
