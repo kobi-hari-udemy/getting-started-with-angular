@@ -7,9 +7,26 @@
       "colors fonts sizes"
       "content content content"
       ;
+    gap: var(--pad-sm);
+    padding: var(--pad-sm);
+
+      .area {
+        background-color: var(--clr-surface);
+        border: 1px solid var(--clr-border);
+        border-radius: var(--pad-sm);
+
+        h3 {
+          display: flex;
+          flex-direction: row;
+          padding: var(--pad-sm);
+        }
+      }
 
       .header-area {
         grid-area: header;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: var(--pad-md);
       }
 
       .colors-area {
@@ -26,6 +43,15 @@
 
       .content-area {
         grid-area: content;
+        display: grid;
+
+        textarea {
+          resize: none;
+          border: 0px transparent;
+          outline: 0px none;
+          margin: var(--pad-md);
+          background-color: var(--clr-surface);
+        }
       }
 
 }

@@ -1,15 +1,30 @@
-<div class="header-area">
-    Header
+<div class="header-area area">
+    Notepad App
 </div>
-<div class="colors-area">
-    Colors
+<div class="colors-area area">
+    <h3>Text Color</h3>
+    @for(item of colorOptions(); track $index) {
+        <div class="item">
+            {{item}}
+        </div>
+    }
 </div>
-<div class="fonts-area">
-    Fonts
+<div class="fonts-area area">
+    <h3>Font Family</h3>
+    @for(item of fontOptions(); track $index) {
+        <div class="item">
+            {{item}}
+        </div>
+    }
 </div>
-<div class="sizes-area">
-    Sizes
+<div class="sizes-area area">
+    <h3>Text Size</h3>
+    @for(item of sizeOptions(); track $index) {
+        <div class="item">
+            {{item}}
+        </div>
+    }
 </div>
-<div class="content-area">
-    Content
+<div class="content-area area">
+    <textarea></textarea>
 </div>
