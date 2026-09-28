@@ -23,6 +23,7 @@ export class App {
   }
 
   search() {
+    console.log('Search Started', this.keyword());
     const searchWord = this.keyword();
     this.isBusy.set(true);
     this.results.set([]);
@@ -34,6 +35,7 @@ export class App {
         searchWord.toLowerCase(), 
         `* ${searchWord} *`
       ]);
+      console.log('Search Completed');
     }, 3000);
 
   }
