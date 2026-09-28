@@ -4,6 +4,8 @@ In this practice, we will build a small search application and use it to connect
 
 The application will let the user enter a keyword and start a simulated search. While the search is running, it will display an animated spinner and disable the controls. When the search finishes, it will display three transformed versions of the keyword.
 
+![Search application wireframe](../../graphics/search-app-wireframe.webp)
+
 ## Run the application
 
 Start the development server:
