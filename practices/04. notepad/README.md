@@ -4,7 +4,7 @@ In this practice, we will build a full-page notepad and use Angular bindings to 
 
 The application will let the user edit a title and note, choose a font family and size, apply text styles, change the alignment, and select text and background colors. Every control will update the document immediately.
 
-![Notepad application wireframe](../../graphics/notepad-app-wireframe.webp)
+![Notepad application wireframe](graphics/notepad-app-wireframe.webp)
 
 ## Run the application
 
