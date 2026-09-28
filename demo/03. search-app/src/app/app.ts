@@ -20,6 +20,7 @@ export class App {
   // Actions
   setKeyword(value: string) {
     this.keyword.set(value);
+    console.log('Set keyword to ', value);
   }
 
   search() {
