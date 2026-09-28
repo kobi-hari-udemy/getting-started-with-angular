@@ -12,8 +12,8 @@
 </div>
 <div class="results-area">
     <ul>
-        <li>Result 1</li>
-        <li>Result 2</li>
-        <li>Result 3</li>
+        @for(res of results(); track $index){
+            <li>{{res}}</li>
+        }
     </ul>
 </div>
