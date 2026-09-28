@@ -4,7 +4,10 @@
 <div class="colors-area area">
     <h3>Text Color</h3>
     @for(item of colorOptions(); track $index) {
-        <div class="item">
+        <div class="item"
+            (click)="selectColor(item)"
+            [class.chosen]="item === selectedColor()"
+        >
             {{item}}
         </div>
     }
@@ -12,7 +15,10 @@
 <div class="fonts-area area">
     <h3>Font Family</h3>
     @for(item of fontOptions(); track $index) {
-        <div class="item">
+        <div class="item"
+            (click)="selectFont(item)"
+            [class.chosen]="item === selectedFont()"
+        >
             {{item}}
         </div>
     }
@@ -20,7 +26,10 @@
 <div class="sizes-area area">
     <h3>Text Size</h3>
     @for(item of sizeOptions(); track $index) {
-        <div class="item">
+        <div class="item"
+            (click)="selectSize(item)"
+            [class.chosen]="item === selectedSize()"
+        >
             {{item}}
         </div>
     }

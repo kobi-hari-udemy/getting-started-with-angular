@@ -41,6 +41,23 @@
         grid-area: sizes;
       }
 
+      .item {
+        padding: var(--pad-sm);
+        border-top: 1px solid var(--clr-border);
+        background-color: var(--clr-background);
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--clr-selected-background);
+        }
+
+        &.chosen {
+          background-color: var(--clr-selected-background);
+          border: 1px solid var(--clr-selected-border);
+          color: var(--clr-selected-text);
+        }
+      }
+
       .content-area {
         grid-area: content;
         display: grid;
